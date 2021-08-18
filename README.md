@@ -1,1 +1,2 @@
 # Asynchronous-FIFO
+In order to send data between two devices which are operating at different frequencies, Asynchronous FIFO is required. Because, if transmitter sends the data at high frequency compared to the receiver then receiver will not read all data and some of the data is lost and if transmitter sends at low frequency than receiver then data is duplicated at receiver end and some times metastability condition also occur.so in order toavoid all these we use a Async. FIFO between transmitter and receiver.
